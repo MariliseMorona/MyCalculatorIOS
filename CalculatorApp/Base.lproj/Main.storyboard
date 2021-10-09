@@ -35,6 +35,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibAC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tcd-8n-Cx6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33v-Py-pVo">
                                                 <rect key="frame" x="102.33333333333334" y="0.0" width="87.333333333333343" height="87.333333333333329"/>
@@ -57,6 +60,10 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uib:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rwc-z4-cks"/>
+                                                    <action selector="uibPercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XX5-KA-uYb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCD-KX-jKx">
                                                 <rect key="frame" x="306.66666666666669" y="0.0" width="87.333333333333314" height="87.333333333333329"/>
@@ -297,6 +304,28 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QbD-hX-xnC" secondAttribute="bottom" constant="10" id="pdL-HP-VpA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="uibAC" destination="Xi5-sL-0Yr" id="tDE-US-LHq"/>
+                        <outlet property="uibComma" destination="LzI-Pl-5cC" id="egs-0B-Fcb"/>
+                        <outlet property="uibDivisor" destination="WCD-KX-jKx" id="HOo-TT-Vwa"/>
+                        <outlet property="uibEight" destination="LvK-Pw-tEI" id="lhq-YS-fng"/>
+                        <outlet property="uibEquals" destination="fG7-r5-zeU" id="iIb-fp-z0J"/>
+                        <outlet property="uibFive" destination="BXq-VZ-kpa" id="eKi-M4-Hga"/>
+                        <outlet property="uibFour" destination="203-aJ-1sC" id="MNd-gi-NZC"/>
+                        <outlet property="uibMultiplicator" destination="dU0-ns-agp" id="b1I-t2-2ri"/>
+                        <outlet property="uibNine" destination="UOn-pv-SSE" id="fW5-6J-eYZ"/>
+                        <outlet property="uibOne" destination="VI1-8i-SSI" id="A1A-1E-lqO"/>
+                        <outlet property="uibPercent" destination="p5R-gE-N1H" id="QiF-BL-Isv"/>
+                        <outlet property="uibSeven" destination="wRJ-Z9-dJJ" id="oDA-Rw-6c5"/>
+                        <outlet property="uibSinal" destination="33v-Py-pVo" id="V0M-5d-kPx"/>
+                        <outlet property="uibSix" destination="aF4-V2-V5H" id="l3c-Wv-1w8"/>
+                        <outlet property="uibSubtractor" destination="0hg-N4-Ybg" id="4qL-V6-6hs"/>
+                        <outlet property="uibSum" destination="KMk-uY-uhe" id="DDi-K6-7eS"/>
+                        <outlet property="uibThree" destination="0Wo-5i-D2O" id="s7T-KW-u85"/>
+                        <outlet property="uibTwo" destination="WaK-v7-32R" id="Aen-Kd-hmB"/>
+                        <outlet property="uibZero" destination="fGa-le-o57" id="zW2-Vz-Urp"/>
+                        <outlet property="uitfVisor" destination="srK-nd-55p" id="tY6-JP-d7f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
