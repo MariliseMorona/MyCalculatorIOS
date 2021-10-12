@@ -36,7 +36,7 @@
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="uibAC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tcd-8n-Cx6"/>
+                                                    <action selector="uibAC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="stH-UB-Eoe"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33v-Py-pVo">
@@ -49,6 +49,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibSinal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abl-QY-cQV"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5R-gE-N1H">
                                                 <rect key="frame" x="204.66666666666666" y="0.0" width="86.999999999999972" height="87.333333333333329"/>
@@ -62,7 +65,7 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="uib:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rwc-z4-cks"/>
-                                                    <action selector="uibPercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XX5-KA-uYb"/>
+                                                    <action selector="uibPercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3hj-uS-Bil"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCD-KX-jKx">
@@ -75,6 +78,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibDivisor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DAk-OZ-cKu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -94,6 +100,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mpb-hQ-rIN"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvK-Pw-tEI">
                                                 <rect key="frame" x="102.33333333333334" y="0.0" width="87.333333333333343" height="87.333333333333329"/>
@@ -105,6 +114,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c4l-Js-uVZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOn-pv-SSE">
                                                 <rect key="frame" x="204.66666666666666" y="0.0" width="86.999999999999972" height="87.333333333333329"/>
@@ -116,6 +128,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kne-o9-64g"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dU0-ns-agp">
                                                 <rect key="frame" x="306.66666666666669" y="0.0" width="87.333333333333314" height="87.333333333333329"/>
@@ -127,6 +142,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibMultiplicator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dgN-iB-7W8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -146,6 +164,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KTC-xo-ifM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXq-VZ-kpa">
                                                 <rect key="frame" x="102.33333333333334" y="0.0" width="87.333333333333343" height="87"/>
@@ -157,6 +178,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KsP-2s-tkK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aF4-V2-V5H">
                                                 <rect key="frame" x="204.66666666666666" y="0.0" width="86.999999999999972" height="87"/>
@@ -168,6 +192,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wos-sS-8iP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hg-N4-Ybg">
                                                 <rect key="frame" x="306.66666666666669" y="0.0" width="87.333333333333314" height="87"/>
@@ -179,6 +206,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibSubtractor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PoQ-9i-gQK"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -198,6 +228,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wdc-Ou-Amb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaK-v7-32R">
                                                 <rect key="frame" x="102.33333333333334" y="0.0" width="87.333333333333343" height="87.333333333333329"/>
@@ -209,6 +242,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tex-WW-xZA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wo-5i-D2O">
                                                 <rect key="frame" x="204.66666666666666" y="0.0" width="86.999999999999972" height="87.333333333333329"/>
@@ -220,6 +256,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qst-mc-Qrj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMk-uY-uhe">
                                                 <rect key="frame" x="306.66666666666669" y="0.0" width="87.333333333333314" height="87.333333333333329"/>
@@ -231,6 +270,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibSum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zFA-As-GCM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -250,6 +292,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PJI-DS-1qZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LzI-Pl-5cC">
                                                 <rect key="frame" x="106" y="0.0" width="91" height="91"/>
@@ -264,6 +309,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibComma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cQH-ja-Kvy"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fG7-r5-zeU">
                                                 <rect key="frame" x="212" y="0.0" width="182" height="91"/>
@@ -278,6 +326,9 @@
                                                     </backgroundConfiguration>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="uibEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QIA-HP-97t"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
