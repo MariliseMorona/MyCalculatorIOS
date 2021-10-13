@@ -39,6 +39,8 @@ class ViewController: UIViewController {
     // MARK: - Variáveis
     
     var visorText: String = ""
+    var temp: Double = 0
+    var percent: Double = 0
    
     
     
@@ -83,24 +85,18 @@ class ViewController: UIViewController {
     }
     
     ///Altera o sinal da expressão
-    /*func changedTheSignal(){
-        var modificator: Int = -1
-        var value : Int
+    func changedTheSignal(){
+        temp = Double(visorText) ?? 0
+        temp = temp * -1
+        uitfVisor.text = String(temp)
         
-        for value in visorText {
-            
-            if value.hashValue != 0 {
-                newValue = value * modificator
-                value = newValue
-            } else {
-                value == value
-            }
-        }
-        
-    }*/
+    }
     ///Cálcula o valor percentual
     func applyPercent(){
-        var percent = visorText.replacingOccurrences(of: "%", with: "*0.01")
+        percent = Double(visorText) ?? 0
+        percent = percent * 0.01
+        uitfVisor.text = String(percent)
+        
     }
     
     
@@ -108,82 +104,83 @@ class ViewController: UIViewController {
     // Action faz referência a ação
     
     ///Retorna o resultado da operação matemática quando o botão Equals é apertado
-    @IBAction func uibEquals(_ sender: Any) {
+    @IBAction func uibEquals(_ sender: UIButton) {
         calculator()
     }
     ///Chama o método que Zera o visor quando o botão AC é apertado
-    @IBAction func uibAC(_ sender: Any) {
+    @IBAction func uibAC(_ sender: UIButton) {
         clearVisor()
     }
     ///Chama o método que Altera o sinal da expressão
-    @IBAction func uibSinal(_ sender: Any) {
-        //changedTheSignal()
+    @IBAction func uibSinal(_ sender: UIButton) {
+        changedTheSignal()
     }
     ///Chama o método que printa o valor no visor, neste caso o .
-    @IBAction func uibComma(_ sender: Any) {
+    @IBAction func uibComma(_ sender: UIButton) {
         printInVisor(value: ".")
     }
     ///Chama o método que printa o valor no visor, neste caso o %, e o método de cálculo percentual
-    @IBAction func uibPercent(_ sender: Any) {
-        printInVisor(value: "%")
+    @IBAction func uibPercent(_ sender: UIButton) {
+        //printInVisor(value: "%")
         applyPercent()
     }
     ///Chama o método que printa o valor no visor, neste caso o /
-    @IBAction func uibDivisor(_ sender: Any) {
+    @IBAction func uibDivisor(_ sender: UIButton) {
         printInVisor(value: "/")
     }
     ///Chama o método que printa o valor no visor, neste caso o *
-    @IBAction func uibMultiplicator(_ sender: Any) {
+    @IBAction func uibMultiplicator(_ sender: UIButton) {
         printInVisor(value: "*")
     }
     ///Chama o método que printa o valor no visor, neste caso o -
-    @IBAction func uibSubtractor(_ sender: Any) {
+    @IBAction func uibSubtractor(_ sender: UIButton) {
         printInVisor(value: "-")
     }
     ///Chama o método que printa o valor no visor, neste caso o +
-    @IBAction func uibSum(_ sender: Any) {
+    @IBAction func uibSum(_ sender: UIButton) {
         printInVisor(value: "+")
     }
     ///Chama o método que printa o valor no visor, neste caso o 0
-    @IBAction func uibZero(_ sender: Any) {
+    @IBAction func uibZero(_ sender: UIButton) {
         printInVisor(value: "0")
     }
     ///Chama o método que printa o valor no visor, neste caso o 1
-    @IBAction func uibOne(_ sender: Any) {
+    @IBAction func uibOne(_ sender: UIButton) {
         printInVisor(value: "1")
     }
     ///Chama o método que printa o valor no visor, neste caso o 2
-    @IBAction func uibTwo(_ sender: Any) {
+    @IBAction func uibTwo(_ sender: UIButton) {
         printInVisor(value: "2")
     }
     ///Chama o método que printa o valor no visor, neste caso o 3
-    @IBAction func uibThree(_ sender: Any) {
+    @IBAction func uibThree(_ sender: UIButton) {
         printInVisor(value: "3")
     }
     ///Chama o método que printa o valor no visor, neste caso o 4
-    @IBAction func uibFour(_ sender: Any) {
+    @IBAction func uibFour(_ sender: UIButton) {
         printInVisor(value: "4")
     }
     ///Chama o método que printa o valor no visor, neste caso o 5
-    @IBAction func uibFive(_ sender: Any) {
+    @IBAction func uibFive(_ sender: UIButton) {
         printInVisor(value: "5")
     }
     ///Chama o método que printa o valor no visor, neste caso o 6
-    @IBAction func uibSix(_ sender: Any) {
+    @IBAction func uibSix(_ sender: UIButton) {
         printInVisor(value: "6")
     }
     ///Chama o método que printa o valor no visor, neste caso o 7
-    @IBAction func uibSeven(_ sender: Any) {
+    @IBAction func uibSeven(_ sender: UIButton) {
         printInVisor(value: "7")
     }
     ///Chama o método que printa o valor no visor, neste caso o 8
-    @IBAction func uibEight(_ sender: Any) {
+    @IBAction func uibEight(_ sender: UIButton) {
         printInVisor(value: "8")
     }
     ///Chama o método que printa o valor no visor, neste caso o 9
-    @IBAction func uibNine(_ sender: Any) {
+    @IBAction func uibNine(_ sender: UIButton) {
         printInVisor(value: "9")
     }
+    
 }
 
 
